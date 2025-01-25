@@ -258,6 +258,7 @@ const CalendarApp: React.FC = () => {
             >
               <Grid item xs={12} sm={6} md={3}>
                 <TextField
+                  autoComplete="off"
                   label="Nome"
                   value={schedule.name}
                   onChange={(e) =>
@@ -282,6 +283,7 @@ const CalendarApp: React.FC = () => {
               </Grid>
               <Grid item xs={12} sm={6} md={3}>
                 <TextField
+                  autoComplete="off"
                   label="Dias"
                   value={schedule.days}
                   onChange={(e) =>
